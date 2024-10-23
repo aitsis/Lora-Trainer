@@ -1,0 +1,4 @@
+colorama
+albumentations
+opencv-python
+ollama

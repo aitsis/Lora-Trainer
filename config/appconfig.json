@@ -1,0 +1,6 @@
+{
+    "source_dir": "dataset/original_images",
+    "save_folder": "dataset/training_images",
+    "captions_folder": "dataset/captions",
+    "ollama_url": "http://localhost:11434"
+}
