@@ -16,7 +16,7 @@ This is a simple LORA trainer that can be used to train your Lora model on any d
 ## Installation
 
 ```bash
-chmod +x setup.sh
+chmod +x *.sh
 ./setup.sh
 ```
 
@@ -25,5 +25,5 @@ chmod +x setup.sh
 - Configure the config/appconfig.json file with your dataset paths and other parameters
 
 ```bash
-python3 main.py
+./start.sh
 ```
