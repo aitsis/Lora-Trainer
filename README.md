@@ -2,6 +2,12 @@
 
 This is a simple LORA trainer that can be used to train your Lora model on any dataset.
 
+## Capabilities
+
+- Image Captioning
+- Data augmentation
+- LORA training
+
 ## Prequisites
 
 - Python 3
