@@ -14,11 +14,11 @@ def clear_folder(folder_path):
 
 def mainMenu():
     os.system('clear')
-    print(Fore.GREEN + "AIT LORA TRAINING\n")
+    print(Fore.GREEN + "AIT DATASET PREPERATION\n")
     print(Fore.BLUE + "1 -" + Style.RESET_ALL + " Data Augmentation")
     print(Fore.BLUE + "2 -" + Style.RESET_ALL + " Rename Images")
     print(Fore.BLUE + "3 -" + Style.RESET_ALL + " Caption Images")
-    print(Fore.GREEN + "4 - Start Lora Training")
+    print(Fore.GREEN + "4 - Get training command")
     print(Fore.RED + "(Q) EXIT" + Style.RESET_ALL)
 
 def dataAugmentationMenu(source_dir, save_folder):
