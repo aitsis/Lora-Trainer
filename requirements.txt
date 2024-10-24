@@ -2,3 +2,7 @@ colorama
 albumentations
 opencv-python
 ollama
+torch
+torchvision
+transformers
+accelerate

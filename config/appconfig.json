@@ -2,5 +2,7 @@
     "source_dir": "dataset/original_images",
     "save_folder": "dataset/training_images",
     "captions_folder": "dataset/captions",
-    "ollama_url": "http://localhost:11434"
+    "ollama_url": "http://localhost:11434",
+    "lora_save_folder": "output/lora",
+    "loging_folder": "logs"
 }
