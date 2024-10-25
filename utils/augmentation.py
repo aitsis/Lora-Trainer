@@ -27,7 +27,6 @@ def create_augmentation_pipeline():
         ("rotate", A.Rotate(limit=(-30, 30), p=1.0)),  # Combined rotation
         ("crop", A.RandomCrop(width=430, height=430, p=1.0)),
         ("color_jitter", A.HueSaturationValue(hue_shift_limit=10, sat_shift_limit=20, val_shift_limit=20, p=0.5)),
-        ("cutout", A.CoarseDropout(max_holes=8, max_height=20, max_width=20, p=0.5)),
         ("channel_shuffle", A.ChannelShuffle(p=0.5)),
     ]
 
